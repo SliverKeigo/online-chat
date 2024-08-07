@@ -4,7 +4,7 @@ const Register = () => {
   return (
     <div className={"bg-gray-100 h-screen flex items-center justify-center"}>
       <div className={"flex flex-col rounded-lg gap-2.5 bg-white p-16 py-5 items-center shadow-2xl"}>
-        <span className={"text-blue-600 text-xl font-bold"}>Keigo Chat</span>
+        <span className={"text-blue-600 text-xl font-bold"}>Ori Chat</span>
         <span className={"text-gray-600 text-xs"}>Register</span>
         <form className={"flex flex-col gap-3.5"}>
           <input className={"p-4 border-0 border-b border-solid border-gray-300 placeholder-gray-500"} type={"text"}
@@ -17,7 +17,7 @@ const Register = () => {
                  id={"file"} style={{display: "none"}}/>
           <label className={"flex items-center gap-3.5 size-8 text-sm cursor-pointer"} htmlFor={"file"}>
             <img src={"https://image.sliverkeigo.fun/file/fe1e9e41e0c3b3a1758cf.png"}/>
-            <span className={"text-blue-600 text-center"}>Upload Avatar</span>
+            <span className={"text-blue-600 text-center"}>Upload Avatar</span>
           </label>
           <button className={"bg-blue-500 text-white p-3 font-bold border-0 cursor-pointer hover:bg-blue-600"}>Sign Up</button>
         </form>
